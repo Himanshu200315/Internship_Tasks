@@ -24,7 +24,7 @@ public class ProductFilter {
                 String name = parts[0].trim();
                 double price = Double.parseDouble(parts[1].trim());
 
-                if (price > 10000) {
+                if (price > 1000) {
                     fw.write(name + "," + price + "\n");
                     System.out.println("✔ Written: " + name + "," + price); // 👈 debug print
                     wroteSomething = true;
